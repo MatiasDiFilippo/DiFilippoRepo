@@ -1,0 +1,285 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+body {
+
+    background-color: white;
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+#video {
+
+    width: 1920px;
+    height: 75px;
+
+}
+
+
+.parrafo {
+color: rgb(27, 27, 27);
+text-align: right;
+margin-left: 500px;
+margin-right: 100px;
+
+}
+
+
+#enlace {
+
+text-decoration: none;
+
+}
+
+
+#headContainer {
+
+    background-color: rgb(27, 27, 27);
+    padding-top: 10px;
+}
+
+#nombre {
+
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 0%;
+    text-decoration: none;
+}
+
+#inicio {
+
+    color: white;
+    padding-left: 800px;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#living {
+
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#merch {
+
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#recursos {
+
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+
+}
+
+#tituloSeccion {
+
+    color: rgb(27, 27, 27);
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 15px;
+
+}
+
+.parrafoContacto {
+
+    color: rgb(27, 27, 27);
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+#formulario {
+
+    margin-left: 390px;
+    margin-top: 50px;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('fondo.jpg');
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #5d5035;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    /* font-family: 'calibri'; */
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: rgb(27, 27, 27);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    /* font-family: 'calibri'; */
+    font-size: 18px;
+    color: white;
+  }
+
+  #mensaje {
+
+    height: 150px;
+    padding-bottom: 120px;
+
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .button {
+    width: 100%;
+    background: rgb(230, 228, 177);
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #terminos {
+
+    text-align: center;
+    margin-right: 00px;
+    font-size: small;
+
+  }
+
+
+#redes {
+
+    width: auto;
+    height: 150px;
+    background-color: #5d5035;
+    margin-top: 100px;
+
+}
+
+#instagram {
+
+    margin-left: 255px;
+    margin-top: 45px;
+    
+
+}
+
+
+#youtube {
+
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: -3px;
+    
+}
+
+#spotify {
+
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: -3px;
+    
+}
+
+#facebook {
+
+    margin-left: 30px;
+    margin-bottom: 1px;
+
+}
+
+
+#legales {
+
+    width: auto;
+    height: 150px;
+    background-color: rgb(27, 27, 27);
+    margin-top: -14px;
+
+}
+
+
+#copyright {
+
+    font-size: small;
+    color: white;
+    padding-top: 75px;
+    margin-left: 30px;
+
+}
+
+#tealabare {
+
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: -50px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-top: -15px;
+
+}
+

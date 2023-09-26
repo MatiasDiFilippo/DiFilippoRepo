@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+body {
+
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+#video {
+
+    width: 1920px;
+    height: 75px;
+
+}
+
+
+#enlace {
+
+text-decoration: none;
+
+}
+
+
+#headContainer {
+
+    background-color: rgb(27, 27, 27);
+    padding-top: 10px;
+}
+
+#nombre {
+
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 0%;
+    text-decoration: none;
+}
+
+#inicio {
+
+    color: white;
+    padding-left: 900px;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#living {
+
+    color: white;
+    padding-left: 800px;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#merch {
+
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+#recursos {
+
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+
+}
+
+#contacto {
+
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+
+
+}
+
+
+#acercaDe {
+
+    font-size: 40px;
+    padding-left: 850px;
+    margin-top: -75px;
+
+
+}
+
+#fotoBanda {
+
+    width: 635px;
+    height: 363px;
+    margin-left: 100px;
+    margin-top: -75px;
+}
+
+.parrafo {
+    
+    color: rgb(27, 27, 27);
+    text-align: left;
+    margin-left: 800px;
+    /* margin-right: 100px; */
+    padding-bottom: 100px;
+    margin-top: -250px;
+    padding-right: 0px;
+    line-height: 30px;
+    
+    }
+
+#legales {
+
+    width: auto;
+    height: 150px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 200px;
+
+}
+
+
+#copyright {
+
+    font-size: small;
+    color: white;
+    padding-top: 75px;
+    margin-left: 30px;
+
+}
+
+#tealabare {
+
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: -50px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-top: -30px;
+
+}
