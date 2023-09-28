@@ -3,6 +3,13 @@
     src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
+#contenedor {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #5d5035;
+
+}
 
 body {
 
@@ -13,7 +20,39 @@ background-color: #5d5035;
 
 }
 
+.bg-dark {
 
+    background-color: rgb(27, 27, 27);
+    
+    }
+
+    .navbar-brand {
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-size: 50;
+    }
+
+    .offcanvas-title {
+    color: white;
+}
+
+.btn-close .btn-close-white {
+    color: black;
+}
+
+.offcanvas-header {
+    background-color: rgb(27, 27, 27);
+}
+
+.offcanvas-body {
+    background-color: rgb(236,220,203);
+}
+
+#offcanvasDarkNavbar.offcanvas.offcanvas-end.text-bg-dark {
+
+    background-color: rgb(27, 27, 27);
+
+}
 
 #headContainer {
 

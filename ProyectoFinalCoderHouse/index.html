@@ -3,44 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <script src="./JS/bootstrap.min.js"></script>
     <title>TE ALABARÉ</title>
   </head>
 
-<body>
+  <body id="contenedor">
+  <div>
  <header>
-
-      <nav>
-        <div id="headContainer">
-          <h1 id="nombre"> <a href="../index.html"></a>TE ALABARÉ <a id="living" href="./pages/living.html">LIVING</a> <a id="merch" href="./pages/merch.html">MERCH</a> <a id="recursos" href="./pages/recursos.html">RECURSOS</a> <a id="contacto" href="./pages/contacto.html">CONTACTO</a> </h1>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">TE ALABARÉ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/living.html">LIVING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/merch.html">MERCH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/recursos.html">RECURSOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                </li>
+            </div>
+          </div>
+        </div>
       </nav>
-
     </header>
 
 
     <div id="vimeo" style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/861692281?badge=0&amp;autoplay=1&amp;loop=1&amp;autopause=0&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="El Jardín Trailer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-  
-  <main>
 
-      <h2 id="acercaDe">Acerca de Te Alabaré</h2>
+  <main> <!-- ACERCA DE LA BANDA -->
       <img id="fotoBanda" src="./assets/img/Portada Te Alabaré.jpg" alt="">
-      <p class="parrafo">Un proyecto que nació desde el  deseo de agradar a Cristo con lo que expresamos a través de nuestra música. </p>
-
+      <h2 id="acercaDe">Acerca de Te Alabaré</h2>
+      <p id="parrafo">Un proyecto que nació desde el  deseo de agradar a Cristo con lo que expresamos a través de nuestra música. Todo inicio sirviendo en nuestra iglesia y ahora nos encontramos proyectando a poder llegar cada vez más lejos con el único propósito de mostrar lo que Jesús puede hacer en la vida de una persona, y eso es algo inexplicable. </p>
+      <div id="contenedorPixels"> <!-- MIEMBROS DE LA BANDA EN PIXEL ART -->
+        <a target="_blank" href="https://www.instagram.com/marcosgti2/"><i><img id="pixelsArt" class="marcosPixel" width=45 height=100 src="./assets/icons/Marcos.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/carlaakuhl/"><i><img id="pixelsArt" width=40 height=100 src="./assets/icons/Carla.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/cba.lucho/"><i><img id="pixelsArt" width=60 height=100 src="./assets/icons/Lucho.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/milaabarrios/"><i><img id="pixelsArt" width=60 height=100 src="./assets/icons/Mili.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/matidifilippo/"><i><img id="pixelsArt" width=50 height=100 src="./assets/icons/Mati.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/briimarinkuhl/"><i><img id="pixelsArt" width=50 height=100 src="./assets/icons/Brisa.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/jor.lauria/"><i><img id="pixelsArt" width=46 height=100 src="./assets/icons/Jorge.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/mpdeoro/"><i><img id="pixelsArt" width=45 height=100 src="./assets/icons/Marita.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/m.giangrandi/"><i><img id="pixelsArt" width=50 height=100 src="./assets/icons/Mati Gian.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/bel.bmusic/"><i><img id="pixelsArt" width=45 height=100 src="./assets/icons/Belu.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/marianjdifi/"><i><img id="pixelsArt" width=45 height=100 src="./assets/icons/Marian.png" alt=""></i></a>
+        <a target="_blank" href="https://www.instagram.com/micozzi_caro/"><i><img id="pixelsArt" width=45 height=100 src="./assets/icons/Caro.png" alt=""></i></a>
+      </div>
   </main>
-  
 
-</body>
-
-<footer id="legales">
-
+<footer id="legales">   <!-- LEGALES -->
   <p id="copyright">Copyright © 2023 Te Alabare - Todos los derechos reservados.</p>
-
   <p id="tealabare">TE ALABARÉ</p>
-
 </footer>
-
+</div>
+</body>
 </html>
 

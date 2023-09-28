@@ -5,11 +5,50 @@
 
 
 body {
-
     background-color: rgb(18, 98, 18);
     font-family: "montserrat";
     font-weight: 500;
     font-size: medium;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    background-color: rgb(18, 98, 18);
+}
+
+.bg-dark {
+
+    background-color: rgb(27, 27, 27);
+    
+    }
+
+    .navbar-brand {
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-size: 50;
+    }
+
+    .offcanvas-title {
+    color: white;
+}
+
+.btn-close .btn-close-white {
+    color: black;
+}
+
+.offcanvas-header {
+    background-color: rgb(27, 27, 27);
+}
+
+.offcanvas-body {
+    background-color: rgb(236,220,203);
+}
+
+#offcanvasDarkNavbar.offcanvas.offcanvas-end.text-bg-dark {
+
+    background-color: rgb(27, 27, 27);
 
 }
 
@@ -43,66 +82,8 @@ text-decoration: none;
     padding-top: 10px;
 }
 
-#nombre {
-
-    color: white;
-    font-weight: 500;
-    font-size: medium;
-    letter-spacing: 3px;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
-    line-height: 0%;
-    text-decoration: none;
-}
-
-#inicio {
-
-    color: white;
-    padding-left: 800px;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-}
-
-#living {
-
-    color: white;
-    /* padding-left: 800px; */
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-}
-
-
-#recursos {
-
-    color: white;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-
-}
-
-#contacto {
-
-    color: white;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-
-}
-
 #tituloSeccion {
-
+    font-family: "montserrat";
     color: white;
     font-size: 70px;
     margin-top: 70px;

@@ -3,7 +3,12 @@
     src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
+#contenedor {
+  width: 100%;
+  max-width: auto;
+  background-color: rgb(236,220,203);
 
+}
 body {
 
     background-color: white;
@@ -13,13 +18,37 @@ body {
 
 }
 
-#video {
-
-    width: 1920px;
-    height: 75px;
-
-}
-
+.bg-dark {
+  background-color: rgb(27, 27, 27);
+  }
+  
+  .navbar-brand {
+      font-weight: 500;
+      letter-spacing: 3px;
+      font-size: 50;
+  }
+  
+  .offcanvas-title {
+      color: white;
+  }
+  
+  .btn-close .btn-close-white {
+      color: black;
+  }
+  
+  .offcanvas-header {
+      background-color: rgb(27, 27, 27);
+  }
+  
+  .offcanvas-body {
+      background-color: rgb(236,220,203);
+  }
+  
+  #offcanvasDarkNavbar.offcanvas.offcanvas-end.text-bg-dark {
+  
+      background-color: rgb(27, 27, 27);
+  
+  }
 
 .parrafo {
 color: rgb(27, 27, 27);
@@ -29,13 +58,11 @@ margin-right: 100px;
 
 }
 
-
 #enlace {
 
 text-decoration: none;
 
 }
-
 
 #headContainer {
 
@@ -43,69 +70,17 @@ text-decoration: none;
     padding-top: 10px;
 }
 
-#nombre {
-
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    font-size: medium;
-    letter-spacing: 3px;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
-    line-height: 0%;
-    text-decoration: none;
-}
-
-#inicio {
-
-    color: white;
-    padding-left: 800px;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-}
-
-#living {
-
-    color: white;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-}
-
-#merch {
-
-    color: white;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-}
-
-#recursos {
-
-    color: white;
-    font-weight: 500;
-    font-size: small;
-    margin-right: 20px;
-    text-decoration: none;
-
-
-}
-
 #tituloSeccion {
-
+    font-family: "montserrat";
     color: rgb(27, 27, 27);
-    font-size: 40px;
+    font-weight: 700;
+    font-size: medium;
+    font-size: 300%;
     margin-top: 70px;
     margin-bottom: 40px;
     text-align: center;
     letter-spacing: 15px;
+    padding-top: 5%;
 
 }
 
@@ -126,7 +101,7 @@ text-decoration: none;
 
 
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0;
     box-sizing: border-box;
   }
@@ -136,11 +111,12 @@ text-decoration: none;
   }
   
   .form-register {
-    width: 400px;
+    width: 470px;
+    height: 100%;
     background: #5d5035;
-    padding: 30px;
+    padding: 3%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 5%;
     border-radius: 4px;
     /* font-family: 'calibri'; */
     color: white;
@@ -155,7 +131,7 @@ text-decoration: none;
   .controls {
     width: 100%;
     background: rgb(27, 27, 27);
-    padding: 10px;
+    padding: 3%;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid white;
@@ -165,14 +141,12 @@ text-decoration: none;
   }
 
   #mensaje {
-
-    height: 150px;
-    padding-bottom: 120px;
+    padding-bottom: 30%;
 
   }
   
   .form-register p {
-    height: 40px;
+    height: 5%;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
@@ -192,19 +166,18 @@ text-decoration: none;
     width: 100%;
     background: rgb(230, 228, 177);
     border: none;
-    padding: 12px;
+    padding: 5%;
     color: black;
     margin: 16px 0;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 10%;
   }
 
   #terminos {
-
     text-align: center;
     margin-right: 00px;
     font-size: small;
-
+    line-height: 200%;
   }
 
 
@@ -217,38 +190,16 @@ text-decoration: none;
 
 }
 
+#contendorRedes {
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
 #instagram {
-
-    margin-left: 255px;
-    margin-top: 45px;
-    
-
+  margin-left: 17%;
 }
-
-
-#youtube {
-
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: -3px;
-    
-}
-
-#spotify {
-
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: -3px;
-    
-}
-
-#facebook {
-
-    margin-left: 30px;
-    margin-bottom: 1px;
-
-}
-
 
 #legales {
 
@@ -270,7 +221,6 @@ text-decoration: none;
 }
 
 #tealabare {
-
     color: white;
     font-weight: 500;
     font-size: medium;
@@ -279,7 +229,68 @@ text-decoration: none;
     padding-top: -50px;
     letter-spacing: 3px;
     margin-left: 20px;
-    margin-top: -15px;
+    margin-top: -35px;
+}
+
+@media screen and (max-width: 1000px){
+  #instagram {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 800px){
+
+  #copyright {
+      text-align: center;
+  }
+  #tealabare {
+
+    color: rgba(255, 255, 255, 0);
+
+}
+}
+
+@media screen and (max-width: 600px){
+
+  #tituloSeccion {
+    font-size: 200%;
+}
+
+  #copyright {
+
+      font-size: 70%;
+      color: white;
+      text-align: center;
+  
+  }
+
+  #tealabare {
+
+      color: rgba(255, 255, 255, 0);
+  
+  }
+}
+
+@media screen and (max-width: 500px){
+  .form-register {
+    width: 80%;
+    height: 100%;
+  }
+
+  #contendorRedes {
+    margin-top: 7%;
+  }
+
 
 }
 
+@media screen and (max-width: 405px){
+.form-register .button {
+  margin-top: 10%;
+}
+
+#instagram {
+  margin-left: -5%;
+}
+
+}

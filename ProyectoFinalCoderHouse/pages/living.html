@@ -2,23 +2,49 @@
 <html lang="es-AR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../assets/icons/Mati.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/cartel-blanco-png.png" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/living_style.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/bootstrap.min.js"></script>
     <title>LIVING</title>
 </head>
 
-
-
-<body>
-
+    <body id="contenedor">
+  <div>
     <header>
-
-        <nav>
-          <div id="headContainer">
-            <h1 id="nombre">TE ALABARÉ <a id="inicio" href="../index.html">INICO</a> <a id="merch" href="./merch.html">MERCH</a> <a id="recursos" href="../pages/recursos.html">RECURSOS</a> <a id="contacto" href="../pages/contacto.html">CONTACTO</a> </h1>
-        </nav>
-        
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">TE ALABARÉ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/living.html">LIVING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/merch.html">MERCH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/recursos.html">RECURSOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
       </header>
       
     <div id="bodyLiving">
@@ -34,7 +60,7 @@
 
 
     <h2 id="tituloVideo1">"Así Será"</h2>
-    <iframe id="asiSera" width="595" height="334" src="https://www.youtube.com/embed/5V2-Fq8CNUo" title="Así Será - El Living de Te Alabaré (Elevation Worship)" frameborder="1 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe id="asiSera" width="595" height="334" src="https://www.youtube.com/embed/5V2-Fq8CNUo" title="Así Será - El Living de Te Alabaré (Elevation Worship)" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <p class="parrafoVideo1">Una de las canciones que compartimos en el episodio 3 de El Living intrerpretada por Brisa Marin. La canción habla de la promesa inamovible de Dios para con nosotros.</p>
 
 
@@ -48,9 +74,7 @@
     <p class="parrafoVideo3">Rulo Canji nos dirigió en adoración interpretando la canción "Hay Un Rey".</p>
 
   </main>
-
 </body>
-
 <footer id="legales">
 
   <p id="copyright">Copyright © 2023 Te Alabare - Todos los derechos reservados.</p>
@@ -58,5 +82,8 @@
   <p id="tealabare">TE ALABARÉ</p>
 
 </footer>
+
+
+
 
 </html>
