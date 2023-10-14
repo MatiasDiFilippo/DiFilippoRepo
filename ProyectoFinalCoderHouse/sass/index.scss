@@ -1,0 +1,101 @@
+@import "layout/navbar";
+@import "layout/footer";
+
+@font-face {
+    font-family: "montserrat";
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+#contenedor {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    background-color: rgb(236,220,203);
+
+}
+
+body {
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: medium;
+}
+
+
+
+#contenedorPixels {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#pixelsArt {
+    margin-right: 4%;
+}
+
+#pixelsArt:hover {
+    transform: scale(1.5);
+}
+
+.marcosPixel {
+    margin-left: 6%;
+}
+
+#video {
+    width: 100%;
+    object-fit: cover;
+}
+
+#enlace {
+text-decoration: none;
+}
+
+#fotoBanda {
+    width: 60%;
+    margin-left: 1%;
+    margin-top: -3%;
+    justify-content: center;
+}
+
+#acercaDe {
+    margin-top: -33%;
+    font-size: 300%;
+    padding-left: 67%;
+}
+
+#parrafo {
+    font-size: 100%;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    margin-left: 63%;
+    padding-bottom: 15%;
+    line-height: 30px;
+    padding-top: 3%;
+    }
+
+@media screen and (max-width: 800px){
+    #fotoBanda {
+
+        width: 100%;
+        padding-right: 2%;
+    } 
+
+    #acercaDe {
+
+        display: flex;
+        font-size: 200%;
+        width: 100%;
+        padding-left: 5%;
+        margin-top: 5%;
+        justify-content: left;
+    
+    
+    }
+
+    #parrafo {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 5%;
+        padding-right: 10%;
+
+
+    }
+}

@@ -1,176 +1,160 @@
-@font-face {
-    font-family: "montserrat";
-    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
-}
-
-#contenedor {
-    width: 100%;
-    max-width: auto;
-    background-color: rgb(236,220,203);
-
-}
-
-body {
-    font-family: "montserrat";
-    font-weight: 500;
-    font-size: medium;
-}
-
 .bg-dark {
-background-color: rgb(27, 27, 27);
+  background-color: rgb(27, 27, 27);
 }
 
 .navbar-brand {
-    font-weight: 500;
-    letter-spacing: 3px;
-    font-size: 50;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 50;
 }
 
 .offcanvas-title {
-    color: white;
+  color: white;
 }
 
 .btn-close .btn-close-white {
-    color: black;
+  color: black;
 }
 
 .offcanvas-header {
-    background-color: rgb(27, 27, 27);
+  background-color: rgb(27, 27, 27);
 }
 
 .offcanvas-body {
-    background-color: rgb(236,220,203);
+  background-color: rgb(236, 220, 203);
 }
 
 #offcanvasDarkNavbar.offcanvas.offcanvas-end.text-bg-dark {
-
-    background-color: rgb(27, 27, 27);
-
+  background-color: rgb(27, 27, 27);
 }
-
-#contenedorPixels {
-    margin-top: 5%;
-    margin-bottom: 3%;
-}
-
-#pixelsArt {
-    margin-right: 4%;
-}
-
-.marcosPixel {
-    margin-left: 6%;
-}
-
-#video {
-    width: 100%;
-}
-
-#enlace {
-text-decoration: none;
-}
-
-#fotoBanda {
-    width: 60%;
-    margin-left: 1%;
-    margin-top: -3%;
-    justify-content: center;
-}
-
-#acercaDe {
-    
-    margin-top: -33%;
-    font-size: 300%;
-    padding-left: 67%;
-}
-
-#parrafo {
-    font-size: 100%;
-    color: rgb(27, 27, 27);
-    text-align: left;
-    margin-left: 63%;
-    padding-bottom: 15%;
-    line-height: 30px;
-    padding-top: 3%;
-    }
 
 #legales {
-
-    width: 100%;
-    height: 150px;
-    background-color: rgb(27, 27, 27);
-    margin-top: ;
-
+  width: 100%;
+  height: 150px;
+  background-color: rgb(27, 27, 27);
 }
 
-
 #copyright {
-
-    font-size: small;
-    color: white;
-    padding-top: 75px;
-    margin-left: 30px;
-
+  font-size: small;
+  color: white;
+  padding-top: 75px;
+  margin-left: 30px;
 }
 
 #tealabare {
-
-    color: white;
-    font-weight: 500;
-    font-size: medium;
-    text-align: right;
-    margin-right: 20px;
-    padding-top: -50px;
-    letter-spacing: 3px;
-    margin-left: 20px;
-    margin-top: -35px;
-
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  text-align: right;
+  margin-right: 20px;
+  padding-top: -50px;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  margin-top: -35px;
 }
 
-@media screen and (max-width: 800px){
-    #fotoBanda {
-
-        width: 100%;
-        padding-right: 2%;
-    } 
-
-    #acercaDe {
-
-        display: flex;
-        font-size: 200%;
-        width: 100%;
-        padding-left: 10%;
-        margin-top: 3%;
-        justify-content: left;
-    
-    
-    }
-
-    #parrafo {
-        width: 100%;
-        margin-top: 5%;
-        margin-left: 10%;
-        padding-right: 10%;
-
-
-    }
-    #copyright {
-        text-align: center;
-    }
+@media screen and (max-width: 800px) {
+  #copyright {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  #tealabare {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+@media screen and (max-width: 600px) {
+  #copyright {
+    font-size: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+#contenedor {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+  background-color: rgb(236, 220, 203);
 }
 
-@media screen and (max-width: 600px){
-
-    #copyright {
-
-        font-size: 70%;
-        color: white;
-        text-align: center;
-    
-    }
-
-    #tealabare {
-
-        color: rgba(255, 255, 255, 0);
-    
-    }
+body {
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: medium;
 }
+
+#contenedorPixels {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#pixelsArt {
+  margin-right: 4%;
+}
+
+#pixelsArt:hover {
+  transform: scale(1.5);
+}
+
+.marcosPixel {
+  margin-left: 6%;
+}
+
+#video {
+  width: 100%;
+  object-fit: cover;
+}
+
+#enlace {
+  text-decoration: none;
+}
+
+#fotoBanda {
+  width: 60%;
+  margin-left: 1%;
+  margin-top: -3%;
+  justify-content: center;
+}
+
+#acercaDe {
+  margin-top: -33%;
+  font-size: 300%;
+  padding-left: 67%;
+}
+
+#parrafo {
+  font-size: 100%;
+  color: rgb(27, 27, 27);
+  text-align: left;
+  margin-left: 63%;
+  padding-bottom: 15%;
+  line-height: 30px;
+  padding-top: 3%;
+}
+
+@media screen and (max-width: 800px) {
+  #fotoBanda {
+    width: 100%;
+    padding-right: 2%;
+  }
+  #acercaDe {
+    display: flex;
+    font-size: 200%;
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+    justify-content: left;
+  }
+  #parrafo {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-right: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

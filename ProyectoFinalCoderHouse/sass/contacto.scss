@@ -1,0 +1,303 @@
+@import "layout/navbar";
+@import "layout/footer";
+
+@font-face {
+    font-family: "montserrat";
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+#contenedor {
+  width: 100%;
+  max-width: auto;
+  background-color: rgb(236,220,203);
+
+}
+body {
+
+    background-color: white;
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+.bg-dark {
+  background-color: rgb(27, 27, 27);
+  }
+  
+  .navbar-brand {
+      font-weight: 500;
+      letter-spacing: 3px;
+      font-size: 50;
+  }
+  
+  .offcanvas-title {
+      color: white;
+  }
+  
+  .btn-close .btn-close-white {
+      color: black;
+  }
+  
+  .offcanvas-header {
+      background-color: rgb(27, 27, 27);
+  }
+  
+  .offcanvas-body {
+      background-color: rgb(236,220,203);
+  }
+  
+  #offcanvasDarkNavbar.offcanvas.offcanvas-end.text-bg-dark {
+  
+      background-color: rgb(27, 27, 27);
+  
+  }
+
+.parrafo {
+color: rgb(27, 27, 27);
+text-align: right;
+margin-left: 500px;
+margin-right: 100px;
+
+}
+
+#enlace {
+
+text-decoration: none;
+
+}
+
+#headContainer {
+
+    background-color: rgb(27, 27, 27);
+    padding-top: 10px;
+}
+
+#tituloSeccion {
+    font-family: "montserrat";
+    color: rgb(27, 27, 27);
+    font-weight: 700;
+    font-size: medium;
+    font-size: 300%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 15px;
+    padding-top: 5%;
+
+}
+
+.parrafoContacto {
+
+    color: rgb(27, 27, 27);
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+#formulario {
+
+    margin-left: 390px;
+    margin-top: 50px;
+
+}
+
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('fondo.jpg');
+  }
+  
+  .form-register {
+    width: 470px;
+    height: 100%;
+    background: #5d5035;
+    padding: 3%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 4px;
+    /* font-family: 'calibri'; */
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: rgb(27, 27, 27);
+    padding: 3%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    /* font-family: 'calibri'; */
+    font-size: 18px;
+    color: white;
+  }
+
+  #mensaje {
+    padding-bottom: 30%;
+
+  }
+  
+  .form-register p {
+    height: 5%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .button {
+    width: 100%;
+    background: rgb(230, 228, 177);
+    border: none;
+    padding: 5%;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-top: 10%;
+  }
+
+  #terminos {
+    text-align: center;
+    margin-right: 00px;
+    font-size: small;
+    line-height: 200%;
+  }
+
+
+#redes {
+
+    width: auto;
+    height: 150px;
+    background-color: #5d5035;
+    margin-top: 100px;
+
+}
+
+#contendorRedes {
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+#instagram {
+  margin-left: 17%;
+}
+
+#contendorRedes:hover {
+  transform: scale(1.5);
+}
+
+#legales {
+
+    width: auto;
+    height: 150px;
+    background-color: rgb(27, 27, 27);
+    margin-top: -14px;
+
+}
+
+
+#copyright {
+
+    font-size: small;
+    color: white;
+    padding-top: 75px;
+    margin-left: 30px;
+
+}
+
+#tealabare {
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: -50px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-top: -35px;
+}
+
+@media screen and (max-width: 1000px){
+  #instagram {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 800px){
+
+  #copyright {
+      text-align: center;
+  }
+  #tealabare {
+
+    color: rgba(255, 255, 255, 0);
+
+}
+}
+
+@media screen and (max-width: 600px){
+
+  #tituloSeccion {
+    font-size: 200%;
+}
+
+  #copyright {
+
+      font-size: 70%;
+      color: white;
+      text-align: center;
+  
+  }
+
+  #tealabare {
+
+      color: rgba(255, 255, 255, 0);
+  
+  }
+}
+
+@media screen and (max-width: 500px){
+  .form-register {
+    width: 80%;
+    height: 100%;
+  }
+
+  #contendorRedes {
+    margin-top: 7%;
+  }
+
+
+}
+
+@media screen and (max-width: 405px){
+.form-register .button {
+  margin-top: 10%;
+}
+
+#instagram {
+  margin-left: -5%;
+}
+
+}

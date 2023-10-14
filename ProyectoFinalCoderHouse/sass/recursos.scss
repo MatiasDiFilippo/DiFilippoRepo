@@ -1,0 +1,200 @@
+@import "layout/navbar";
+@import "layout/footer";
+
+@font-face {
+    font-family: "montserrat";
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+body {
+
+    background-color: brown;
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: medium;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    background-color: brown;
+
+}
+
+.bg-dark {
+
+    background-color: rgb(27, 27, 27);
+    
+    }
+
+    .navbar-brand {
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-size: 50;
+    }
+
+    .offcanvas-title {
+    color: white;
+}
+
+.btn-close .btn-close-white {
+    color: black;
+}
+
+.offcanvas-header {
+    background-color: rgb(27, 27, 27);
+}
+
+.offcanvas-body {
+    background-color: rgb(236,220,203);
+}
+
+#offcanvasDarkNavbar.offcanvas.offcanvas-end.text-bg-dark {
+
+    background-color: rgb(27, 27, 27);
+
+}
+
+#video {
+
+    width: 1920px;
+    height: 75px;
+
+}
+
+
+.parrafo {
+color: rgb(27, 27, 27);
+text-align: right;
+margin-left: 500px;
+margin-right: 100px;
+
+}
+
+
+#enlace {
+
+text-decoration: none;
+
+}
+
+
+#headContainer {
+
+    background-color: rgb(27, 27, 27);
+    padding-top: 10px;
+}
+
+#tituloSeccion {
+
+    color: white;
+    font-size: 70px;
+    margin-top: 70px;
+    text-align: center;
+    letter-spacing: 20px;
+    margin-left: 2%;
+
+}
+
+.parrafoRecursos {
+
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 3%;
+
+}
+
+#link {
+
+    color: white;
+
+}
+
+#googleDrive {
+
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+#legales {
+
+    width: auto;
+    height: 150px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 10%;
+
+}
+
+
+#copyright {
+
+    font-size: small;
+    color: white;
+    padding-top: 75px;
+    margin-left: 30px;
+
+}
+
+#tealabare {
+
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: -50px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-top: -30px;
+
+}
+
+@media screen and (max-width: 1000px){
+    #instagram {
+      margin-left: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+  
+    #copyright {
+        text-align: center;
+    }
+    #tealabare {
+  
+      color: rgba(255, 255, 255, 0);
+  
+  }
+  }
+  
+  @media screen and (max-width: 600px){
+  
+    #tituloSeccion {
+      font-size: 200%;
+  }
+  
+    #copyright {
+  
+        font-size: 70%;
+        color: white;
+        text-align: center;
+    
+    }
+  
+    #tealabare {
+  
+        color: rgba(255, 255, 255, 0);
+    
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+
+  
+  }
+  
